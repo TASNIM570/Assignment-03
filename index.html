@@ -1,147 +1,283 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <!--   Font-Manrope    -->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body style="font-family: 'Manrope', sans-serif;">
+    <!--    Font-awesome-Icon    -->
+
+    <script
+      src="https://kit.fontawesome.com/d4f40e21fd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body style="font-family: 'Manrope', sans-serif">
     <header>
+      <!-- Banner -->
+      <!-- <img class="" src="Images/1.png" alt=""> -->
 
-         <!-- Banner -->
-         <!-- <img class="" src="Images/1.png" alt=""> -->
+      <div>
+        <div class="carousel m-3 lg:mt-10 flex mx-auto lg:w-[1200px]">
+          <div id="slide1" class="carousel-item relative w-full h-full">
+            <img src="Images/1.png" class="w-full relative" />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
 
-<div>
-  <div class="carousel m-3 lg:mt-10 flex mx-auto lg:w-[1200px]">
+          <div id="slide2" class="carousel-item relative w-full">
+            <img
+              src="Images/1150px-Stp_20170607_100_34814517910_o_(39874336314).jpg"
+              class="w-full lg:h-[550px] rounded-2xl"
+            />
+            <div
+              class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+            >
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
 
-    <div id="slide1" class="carousel-item relative w-full h-full">
-      <img src="Images/1.png" class="w-full relative" />
-      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a href="#slide2" class="btn btn-circle">❮</a> 
-        <a href="#slide2" class="btn btn-circle">❯</a>
+        <!-- Banner-text -->
+
+        <div
+          class="bg-black text-white lg:h-[150px] lg:w-[500px] rounded-xl lg:rounded-2xl lg:-mt-50 px-6 py-3 absolute -mt-40 lg:-mt-48 lg:ml-[750px]"
+        >
+          <h1 class="text-2xl mb-4">Meet all the heroes from the field</h1>
+
+          <p class="text-base">
+            amet consectetur adipisicing elit. Rerum saepe laudantium magni
+            delectus corrupti sint dignissimos, asperiores quis illo possimus.
+          </p>
+        </div>
       </div>
-    </div> 
 
-  
-    <div id="slide2" class="carousel-item relative w-full ">
-      <img src="Images/1150px-Stp_20170607_100_34814517910_o_(39874336314).jpg" class="w-full lg:h-[550px] rounded-2xl"/>
-      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-        <a href="#slide1" class="btn btn-circle">❮</a> 
-        <a href="#slide1" class="btn btn-circle">❯</a>
+      <!-- Double-color dashed line -->
+
+      <hr class="" />
+
+      <!-- Hockey Club -->
+
+      <div>
+        <div class="m-3 lg:mt-10 flex mx-auto lg:w-[1200px] justify-center">
+          <div class="text-center text-black">
+            <h1 class="text-3xl font-extrabold">Professional Hockeys Club</h1>
+            <p class="pt-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing eisicing Lorem
+              ipsum dolor sit amet, consectetur adipisicing veritatis..
+            </p>
+          </div>
+        </div>
       </div>
-    </div> 
-  </div>
 
-          <!-- Banner-text -->
+      <!-- Radial Progress -->
 
-  <div class="bg-black text-white lg:h-[150px] lg:w-[500px] rounded-xl lg:rounded-2xl lg:-mt-50 px-6 py-3 absolute -mt-40 lg:-mt-48 lg:ml-[750px]">
-
-    <h1 class="text-2xl mb-4">Meet all the heroes from the field</h1>
-
-    <p class="text-base">amet consectetur adipisicing elit. Rerum saepe laudantium magni delectus corrupti sint dignissimos, asperiores quis illo possimus.</p>
-  </div>
-
-</div>
-
-<!-- Double-color dashed line -->
-
-<hr class="">
-
-<!-- Hockey Club -->
-
-<div>
-  <div class="m-3 lg:mt-10 flex mx-auto lg:w-[1200px] justify-center">
-    <div class="text-center text-black">
-      <h1 class="text-3xl font-extrabold">Professional Hockeys Club</h1>
-      <p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing eisicing Lorem ipsum dolor sit amet, consectetur adipisicing veritatis..</p>
-    </div>    
-    </div>    
-  </div>    
-
-<!-- Radial Progress -->
-
-<div class="m-3 lg:mt-10 lg:flex gap-10 mx-auto lg:w-[1200px] justify-center text-center">
-
-<div>
-  <div class="radial-progress" style="--value:87;" role="progressbar">87%</div>
-  <h1 class="text-2xl">Prayer Facility</h1>
-  <p class="px-5 "> consectetur adipisicing elit. Mollitia ad perspiciatis facilis laudantium earum quo repellat distinctio nulla officia? Ut debitis aliquam rerum tenetur.</p>
-</div>
-<div>
-  <div class="radial-progress" style="--value:95;" role="progressbar">95%</div>
-  <h1 class="text-2xl">Experienced Coach</h1>
-  <p class="px-5"> consectetur adipisicing elit. Mollitia ad perspiciatis facilis laudantium earum quo repellat distinctio nulla officia? Ut debitis aliquam rerum tenetur.</p>
-</div>
-<div>
-  <div class="radial-progress" style="--value:90;" role="progressbar">90%</div>
-  <h1 class="text-2xl">Senior Player</h1>
-  <p class="px-5"> consectetur adipisicing elit. Mollitia ad perspiciatis facilis laudantium earum quo repellat distinctio nulla officia? Ut debitis aliquam rerum tenetur.</p>
-</div>
-<div>
-  <div class="radial-progress" style="--value:80;" role="progressbar">80%</div>
-  <h1 class="text-2xl">Training Ground</h1>
-  <p class="px-5"> consectetur adipisicing elit. Mollitia ad perspiciatis facilis laudantium earum quo repellat distinctio nulla officia? Ut debitis aliquam rerum tenetur.</p>
-</div>
-
-</div>
+      <div
+        class="m-3 lg:mt-10 lg:flex gap-10 mx-auto lg:w-[1200px] justify-center text-center"
+      >
+        <div>
+          <div class="radial-progress" style="--value: 87" role="progressbar">
+            87%
+          </div>
+          <h1 class="text-2xl">Prayer Facility</h1>
+          <p class="px-5">
+            consectetur adipisicing elit. Mollitia ad perspiciatis facilis
+            laudantium earum quo repellat distinctio nulla officia? Ut debitis
+            aliquam rerum tenetur.
+          </p>
+        </div>
+        <div>
+          <div class="radial-progress" style="--value: 95" role="progressbar">
+            95%
+          </div>
+          <h1 class="text-2xl">Experienced Coach</h1>
+          <p class="px-5">
+            consectetur adipisicing elit. Mollitia ad perspiciatis facilis
+            laudantium earum quo repellat distinctio nulla officia? Ut debitis
+            aliquam rerum tenetur.
+          </p>
+        </div>
+        <div>
+          <div class="radial-progress" style="--value: 90" role="progressbar">
+            90%
+          </div>
+          <h1 class="text-2xl">Senior Player</h1>
+          <p class="px-5">
+            consectetur adipisicing elit. Mollitia ad perspiciatis facilis
+            laudantium earum quo repellat distinctio nulla officia? Ut debitis
+            aliquam rerum tenetur.
+          </p>
+        </div>
+        <div>
+          <div class="radial-progress" style="--value: 80" role="progressbar">
+            80%
+          </div>
+          <h1 class="text-2xl">Training Ground</h1>
+          <p class="px-5">
+            consectetur adipisicing elit. Mollitia ad perspiciatis facilis
+            laudantium earum quo repellat distinctio nulla officia? Ut debitis
+            aliquam rerum tenetur.
+          </p>
+        </div>
+      </div>
     </header>
 
     <main>
       <!-- Program section -->
       <div class="m-3 lg:mt-10 mx-auto lg:w-[1200px] justify-center">
         <div class="text-center mb-4 lg:mb-10">
-        <h1 class="text-3xl font-extrabold">Program sections</h1>
-        <p class="pt-2 lg:pt-5">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+          <h1 class="text-3xl font-extrabold">Program sections</h1>
+          <p class="pt-2 lg:pt-5">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
         </div>
 
         <!-- image -->
 
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-y-2 lg:gap-y-5">
-            <div class="relative">
-              <img class="brightness-50" src="Images/2.png" alt="">
-              <div class="absolute top-1 w-96 mt-16 lg:mt-28 pl-12 text-white ">
-                <h1 class="font-black text-xl mb-2">Junior Program</h1>
-                <p class="text-sm">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet. consectetur adipisicing elit Lorem ipsum dolor sit amet.amet consectetur adipisicing </p>
-                <button class="text-white bg-[#FF4240] px-3 py-1 rounded-lg mt-5">Register Now !</button>
-              </div>
-            </div> 
-            
-            <div class="relative">
-              <img class="brightness-50" src="Images/3.png" alt="">
-              <div class="absolute top-1 w-96 mt-16 lg:mt-24 pl-12 text-white">
-                <h1 class="font-black text-xl mb-2">Teenager Program</h1>
-                <p class="text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                <button class="text-white bg-[#FF4240] px-3 py-1 rounded-lg mt-5">Register Now !</button>
-              </div>
-            </div> 
-
-            <div class="relative lg:col-span-2">
-              <img class="brightness-50" src="Images/4.png" alt="">
-              <div class="absolute top-1 w-72 lg:w-96 lg:mt-16 mt-4 lg:mt-28 pl-12 text-white">
-                <h1 class="font-black text-lg lg:text-xl mb-1 lg:mb-2">Professional Program</h1>
-                <p class="text-xs lg:text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                  enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                <button class="text-white bg-[#FF4240] px-2 lg:px-3 lg:py-1 rounded-lg mt-2 lg:mt-5">Register Now !</button>
-              </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-y-2 lg:gap-y-5">
+          <div class="relative">
+            <img class="brightness-50" src="Images/2.png" alt="" />
+            <div class="absolute top-1 w-96 mt-16 lg:mt-28 pl-12 text-white">
+              <h1 class="font-black text-xl mb-2">Junior Program</h1>
+              <p class="text-sm">
+                Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet.
+                consectetur adipisicing elit Lorem ipsum dolor sit amet.amet
+                consectetur adipisicing
+              </p>
+              <button class="text-white bg-[#FF4240] px-3 py-1 rounded-lg mt-5">
+                Register Now !
+              </button>
             </div>
-          
+          </div>
+
+          <div class="relative">
+            <img class="brightness-50" src="Images/3.png" alt="" />
+            <div class="absolute top-1 w-96 mt-16 lg:mt-24 pl-12 text-white">
+              <h1 class="font-black text-xl mb-2">Teenager Program</h1>
+              <p class="text-sm">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <button class="text-white bg-[#FF4240] px-3 py-1 rounded-lg mt-5">
+                Register Now !
+              </button>
+            </div>
+          </div>
+
+          <div class="relative lg:col-span-2">
+            <img class="brightness-50" src="Images/4.png" alt="" />
+            <div
+              class="absolute top-1 w-72 lg:w-96 lg:mt-16 mt-4 lg:mt-28 pl-12 text-white"
+            >
+              <h1 class="font-black text-lg lg:text-xl mb-1 lg:mb-2">
+                Professional Program
+              </h1>
+              <p class="text-xs lg:text-sm">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <button
+                class="text-white bg-[#FF4240] px-2 lg:px-3 lg:py-1 rounded-lg mt-2 lg:mt-5"
+              >
+                Register Now !
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
+      <!--    New Products    -->
+
+      <div class="mx-auto lg:w-[1200px] mt-5 lg: mt-20">
+        <div class="text-center">
+          <h1>Our New Products</h1>
+          <p class="mb-10">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+
+        <div class=" mt-5 lg: mt-20 bg-red-100 ">
+
+          <div class="lg:flex">
+            <div class="p-2 lg:p-4">
+            <img src="Images/5.png" alt="">
+            </div>
+
+            <div class="pt-2 lg:pt-4">             
+            <div class="rating">
+              <input type="radio" name="rating-2"class="size-4  mask mask-star-2 bg-orange-400"/> 
+              <h1 class="text-sm ml-2 mr-4">5.0</h1>
+
+              <i class="size-5 fa-regular fa-eye"></i>
+                <h1 class="text-sm ml-1">20</h1>
+
+                <i class="ml-3 fa-regular fa-heart"></i>
+                <h1 class="text-sm ml-1">200</h1>
+            </div>
+
+            <div>
+              <h1 class="text-lg font-extrabold mt-1 lg:mt-3 mb-1 lg:mb-3">World Cup Flags Football</h1>
+              <P>Dolor sit amet consectetur. Ut urna diam quis sagittis. </P>
+
+              <div class="flex mt-2 lg:mt-5">
+                <p class="text-red-500 font-semibold pr-2 lg:pr-4 ">Price - $22.00</p>  
+            <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free
+              </div>
+            
+            </div>
+
+            </div>       
+            </div>
+
+          </div>
+
+        </div>
+            
+
+              <!-- <div class="rating">
+                <input type="radio" name="rating-2"class="size-4 mask mask-star-2 bg-orange-400"/> 
+                <h1 class="text-sm ml-2 mr-4">5.0</h1>
+              </div>
+
+                <i class="size-5 fa-regular fa-eye"></i>
+                <h1 class="text-sm ml-1">20</h1>
+
+                <i class="ml-3 fa-regular fa-heart"></i>
+                <h1 class="text-sm ml-1">200</h1> -->
+              
+
+            <!-- <h1>World Cup Flags Football</h1>
+            <P>Dolor sit amet consectetur. Ut urna diam quis sagittis. </P>
+            <div>
+            Price - $22.00
+            <i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free -->
+
+      <hr>
     </main>
 
-
-
-
     <footer></footer>
-    
-</body>
+  </body>
 </html>
